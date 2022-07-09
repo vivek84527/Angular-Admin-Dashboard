@@ -1,0 +1,57 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row" style="margin-top: 20px;">
+
+            <div class="col-md-6 offset-md-3">
+                <h1 class="text-center">Add Customers</h1>
+                <form (ngSubmit)="formSubmit()"> 
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>User Name</mat-label>
+                        <input matInput placeholder="Enter Your Name">
+
+
+                    </mat-form-field>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>User Password</mat-label>
+                        <input matInput placeholder="Enter Your Password" type="password">
+
+
+                    </mat-form-field>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>User Email_Id</mat-label>
+                        <input matInput placeholder="Enter Your Email Id" type="email">
+
+
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>User Address</mat-label>
+                        <input matInput placeholder="Enter Address" type="email">
+
+
+                    </mat-form-field>
+                    <div class="container text-center" >
+                        <button type ="submit" mat-raised-button color="primary">Register</button>
+                        <button style="margin-left:20px" mat-raised-button color="accent">Clear</button>
+
+
+
+                    </div>
+                
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+</div>
